@@ -6,7 +6,6 @@ class Calculator:
     def get_result(self):
         """ Get Result of Calculation"""
         return self.result
-
     def add_number(self, value_a):
         """ adds number to result"""
         self.result = self.result + value_a
@@ -19,3 +18,8 @@ class Calculator:
         """ multiply two numbers and store the result"""
         self.result = value_a * value_b
         return self.result
+    @staticmethod
+    def divide_numbers(value_a, value_b):
+        """ divide two numbers and store the result"""
+        return value_a / value_b
+
