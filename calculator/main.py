@@ -21,5 +21,4 @@ class Calculator:
     @staticmethod
     def divide_numbers(value_a, value_b):
         """ divide two numbers and store the result"""
-        return value_a / value_b
-
+        return value_a/value_b
